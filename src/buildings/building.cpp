@@ -25,32 +25,32 @@ Building::Building(short int level, int pv, int maxpv,
 {
 }
 
-short int Building::getLevel()
+short int Building::getLevel() const
 {
     return _level;
 }
 
-int Building::getPv()
+int Building::getPv() const
 {
     return _pv;
 }
 
-int Building::getMaxPv()
+int Building::getMaxPv() const
 {
     return _maxpv;
 }
 
-int Building::getUpgradePrice()
+int Building::getUpgradePrice() const
 {
     return _upgradeprice;
 }
 
-bool Building::getUpgrading()
+bool Building::getUpgrading() const
 {
     return _upgrading;
 }
 
-std::pair<int, int> Building::getPosition()
+std::pair<int, int> Building::getPosition() const
 {
     return _position;
 }

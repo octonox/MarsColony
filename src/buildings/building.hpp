@@ -18,12 +18,12 @@ public:
              int upgradeprice, bool upgrading,
              std::pair<int, int> position); //To create it with a file (when the game is launching)
 
-    short int getLevel();
-    int getPv();
-    int getMaxPv();
-    int getUpgradePrice();
-    bool getUpgrading();
-    std::pair<int, int> getPosition();
+    short int getLevel() const;
+    int getPv() const;
+    int getMaxPv() const;
+    int getUpgradePrice() const;
+    bool getUpgrading() const;
+    std::pair<int, int> getPosition() const;
 
     virtual void upgrade() = 0;
 

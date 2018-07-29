@@ -397,3 +397,13 @@
 	<utility>
 	<memory>
 
+1532893480 source:c:\users\victo_000\marscolony\src\buildings\building.cpp
+	"building.hpp"
+
+1532892921 c:\users\victo_000\marscolony\src\buildings\building.hpp
+	<utility>
+	<memory>
+
+1531154504 source:c:\users\victo_000\marscolony\src\main.cpp
+	<SFML/Graphics.hpp>
+

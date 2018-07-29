@@ -1,11 +1,15 @@
 #include "log.hpp"
 
-Log::Log(std::ifstream file)
+Log::Log(std::string const& file) : _file(file.c_str())
 {
-    //ctor
+    if(!_file)
+    {
+        std::cerr << "Unable to open file \"" << file << "\"\nAborting...";
+        abort();
+    }
 }
 
 Log::~Log()
 {
-    //dtor
+    _file.close();
 }

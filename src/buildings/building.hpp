@@ -4,8 +4,8 @@
 -Sera dérivée par les différentes catégories de bâtiment
 **/
 
-#ifndef __BUILDING__
-#define __BUILDING__
+#ifndef BUILDING_HPP
+#define BUILDING_HPP
 #include <utility> //Header that contain "std::pair" class
 #include <memory>
 
@@ -36,5 +36,5 @@ protected:
     std::pair<int, int> _position; //The position on the map (x;y)
 };
 
-#endif // __BUILDING__
+#endif // BUILDING_HPP
 

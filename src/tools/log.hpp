@@ -1,5 +1,5 @@
-#ifndef LOG_H
-#define LOG_H
+#ifndef LOG_HPP
+#define LOG_HPP
 #include <fstream>
 #include <string>
 #include <iostream>
@@ -20,4 +20,4 @@ private:
     std::ofstream _file;
 };
 
-#endif // LOG_H
+#endif // LOG_HPP

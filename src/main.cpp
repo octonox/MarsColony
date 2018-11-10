@@ -1,4 +1,4 @@
-#include <SFML/Graphics.hpp>
+#include "tools/eventloop.hpp" //SFML/Graphics.hpp included in eventloop.hpp
 
 int main(int argc, char* argv[])
 {

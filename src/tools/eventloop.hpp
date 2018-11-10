@@ -1,15 +1,20 @@
 #ifndef EVENTLOOP_HPP
 #define EVENTLOOP_HPP
+#include <SFML/Graphics.hpp>
+#include <functional>
+
+/// A class that represent an event loop ///
 
 namespace gmpl{
 class EventLoop
 {
-    public:
-        EventLoop();
+public:
+    explicit EventLoop(std::function<void(sf::RenderWindow&)>& callback);
 
-    protected:
+    void start();
 
-    private:
+private:
+    std::function<void(sf::RenderWindow&)> const& m_callback;
 };
 }
 

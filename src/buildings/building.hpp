@@ -9,6 +9,7 @@
 #include <utility> //Header that contain "std::pair" class
 #include <memory>
 
+namespace gmpl{
 class Building
 {
 public:
@@ -35,6 +36,7 @@ protected:
     bool _upgrading; //Tell if it's upgrading (so if it can be used or not)
     std::pair<int, int> _position; //The position on the map (x;y)
 };
+}
 
 #endif // BUILDING_HPP
 

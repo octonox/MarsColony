@@ -2,12 +2,15 @@
 -Création: 29/08/2018
 -Classe représentant un achievement
 -Implémente le pattern Observer
+-Un achievement peut se déclencher:
+    Soit avec une limite d'argent
 **/
 
 #ifndef ACHIEVEMENT_HPP
 #define ACHIEVEMENT_HPP
 #include "base.hpp"
 
+namespace gmpl{
 class Base;
 
 class Achievement
@@ -26,5 +29,6 @@ private:
     //Attrs
     bool _done; //If the achievement is done or not
 };
+}
 
 #endif // ACHIEVEMENT_HPP

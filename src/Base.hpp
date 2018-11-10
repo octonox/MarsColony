@@ -9,6 +9,7 @@
 #include "buildings/building.hpp"
 #include "achievement.hpp"
 
+namespace gmpl{
 class Achievement;
 
 class Base
@@ -27,5 +28,6 @@ public:
 private:
     std::vector<Achievement> _observers;
 };
+}
 
 #endif // BASE_HPP

@@ -1,3 +1,1 @@
-Create an class "Observable" with three methods (add, delete, notify) and a vector of observers
-A class Observer with a virtual pure method notify and inherit them with the real observable and observer
-Put rules in the class achievement
+Create a function that init the achievements

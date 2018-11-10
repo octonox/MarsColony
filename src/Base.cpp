@@ -1,5 +1,6 @@
 #include "base.hpp"
 
+namespace gmpl{
 Base::Base()
 {
     //ctor
@@ -18,4 +19,5 @@ void Base::notifyObs()
         if(!p.isDone())
             p.notify(*this);
     }
+}
 }

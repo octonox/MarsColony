@@ -42,15 +42,15 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add directory="C:/SFML-2.4.2/include" />
+			<Add directory="../../../../../Librairies/SFML-2.4.2/include" />
 		</Compiler>
 		<Linker>
-			<Add directory="C:/SFML-2.4.2/lib" />
+			<Add directory="../../../../../Librairies/SFML-2.4.2/lib" />
 		</Linker>
-		<Unit filename="Achievement.cpp" />
-		<Unit filename="Achievement.hpp" />
-		<Unit filename="src/Base.cpp" />
-		<Unit filename="src/Base.hpp" />
+		<Unit filename="src/achievement.cpp" />
+		<Unit filename="src/achievement.hpp" />
+		<Unit filename="src/base.cpp" />
+		<Unit filename="src/base.hpp" />
 		<Unit filename="src/buildings/building.cpp" />
 		<Unit filename="src/buildings/building.hpp" />
 		<Unit filename="src/main.cpp" />

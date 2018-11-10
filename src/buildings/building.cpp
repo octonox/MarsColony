@@ -4,6 +4,7 @@
 
 #include "building.hpp"
 
+namespace gmpl{
 Building::Building(int maxpv, int upgradeprice, std::pair<int, int> position) : _level(1), _pv(maxpv), _maxpv(maxpv), _upgradeprice(upgradeprice), _upgrading(false)
 {
     _position = std::make_pair(position.first, position.second);
@@ -53,4 +54,5 @@ bool Building::getUpgrading() const
 std::pair<int, int> Building::getPosition() const
 {
     return _position;
+}
 }

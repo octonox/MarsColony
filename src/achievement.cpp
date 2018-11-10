@@ -1,5 +1,6 @@
 #include "Achievement.hpp"
 
+namespace gmpl{
 Achievement::Achievement()
 {
 }
@@ -18,4 +19,5 @@ void Achievement::notify(Base const& state)
 bool Achievement::verif_rules(Base const& state) const
 {
     return true;
+}
 }
